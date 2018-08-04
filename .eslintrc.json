@@ -1,0 +1,19 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["warn", 2],
+    "semi": "warn",
+    "no-console": "off",
+    "for-direction": "off",
+    "getter-return": "off",
+    "no-unused-vars": ["warn", {"args": "none"}],
+    "no-var": "warn"
+  },
+  "env": {
+    "node": true
+  },
+  "extends": "eslint:recommended"
+}
